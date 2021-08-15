@@ -4,13 +4,13 @@ function Pricing(props) {
     return (
         <div className="height100 pricingSect" ref={props.tryNow}>
             <div className="wrapper">
-                <div className="text-left col-10 mx-auto">
+                <div className="text-left mx-auto">
                     <h2>Pricing</h2>
                     <p>Test out our app today! Choose from thre subscription <br /> Based payment models. </p>
 
                 </div>
                 <div className="text-left
-                row col-10 mx-auto justify-content-center">
+                row mx-auto justify-content-center">
                     <div className="planGroups col-4">
                         <div className="redFont">
                             <h4>Basic</h4>

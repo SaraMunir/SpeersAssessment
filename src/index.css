@@ -204,23 +204,15 @@ display: none;
 }
 .speakers{
   cursor: pointer;
-  width: 300px;
+  width: 100%;
+  transition: ease all .6s;
 }
 .speakers:hover {
-  width: 350px;
-
-}
-.speakLeft{
-  margin-top: -74px;
-  transition: ease all .5;
-}
-.speakLeft:hover{
-  position: absolute;
-  z-index: 10000;
-  
+  width: 120%;
+  /* position: absolute; */
 }
 .speakRight{
-  margin-top: 135px;
+  margin-top: 97px;
 }
 .cursor {
   width: 40px;
@@ -360,7 +352,7 @@ display: none;
   letter-spacing: 3px;
 }
 .planGroups{
-  border: 1px solid cyan;
+  /* border: 1px solid cyan; */
 }
 .planGroups h4 {
   border-bottom: 3px solid;
@@ -398,10 +390,8 @@ display: none;
   background-color: #1fe1e9
   ;
 }
-
 .wrapper{
-  border: 1px solid rgb(202, 255, 123);
-  width: 90%;
+  width: 80%;
   margin: 0 auto;
 }
 .pricingBtn{
@@ -420,4 +410,8 @@ display: none;
 .pricingBtn:hover{
   background: white;
   color: black;
+}
+
+.border{
+  border: 1px solid crimson;
 }

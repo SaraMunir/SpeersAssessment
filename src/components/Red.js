@@ -16,10 +16,13 @@ function Red(props) {
                         see demo
                     </div>
                 </div>
-                <div className="col-lg-6">
-                    div
-                    <img  className="speakers speakLeft col-lg-6" src={speakerImgLeft} alt="" />
-                    <img  className="speakers  speakRight col-lg-6" src={speakerImgRight} alt=""/>
+                <div className="col-lg-6 row mx-auto">
+                    <div className="col-lg-6">
+                        <img  className="speakers speakLeft" src={speakerImgLeft} alt="" />
+                    </div>
+                    <div className="col-lg-6">
+                        <img  className="speakers  speakRight" src={speakerImgRight} alt=""/>
+                    </div>
                 </div>
             </div>
         </div>
