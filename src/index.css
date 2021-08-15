@@ -1,0 +1,423 @@
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
+    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
+    sans-serif;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+code {
+  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
+    monospace;
+}
+.height100{
+  min-height: 100vh;
+}
+.navMenu{
+  position: fixed;
+  z-index: 500;
+}
+.hamburger{
+  color: white;
+  position: relative;
+}
+.hero{
+  /* border: aqua 1px solid; */
+  position: relative;
+}
+.heroTxtCont{
+  background: rgba(0, 0, 0, 0.363);
+  position: absolute;
+  top: 0;
+  right: 0;
+  left: 0;
+  bottom: 0;
+  z-index: 100;
+  color: whitesmoke;
+  font-family: 'Montserrat', sans-serif;
+  /* font-family: 'Roboto', sans-serif; */
+}
+.carousel-indicators{
+  z-index: 200;
+}
+.carousel-indicators li {
+  border-radius: 50%;
+  width: 10px;
+  height: 10px;
+}
+
+h1 {
+  text-transform: uppercase;
+  font-size: 2.8rem;
+  letter-spacing: 8px;
+  margin-top: 200px;
+  margin-bottom: 20px;
+  font-weight: 700;
+}
+.heroTxtCont p{
+  width: 40%;
+  margin: 0 auto;
+  font-size: 1.4rem;
+  font-weight: 300;
+}
+.heroImg{
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 100vh;
+}
+.image1{
+  background-image: url("https://cdn.aarp.net/content/dam/aarp/entertainment/music/2018/03/1140-concert-ticket-prices.jpg");
+
+}
+.image2{
+  background-image: url("https://mspmag.com/downloads/51225/download/shutterstock_696332926.jpg?cb=5b21ba3e87f20324f36e2a2e13fe438c&w=1280");
+}
+.image3{
+  background-image: url("https://ichef.bbci.co.uk/news/976/cpsprodpb/BE8F/production/_117738784_tv066462884.jpg");
+}
+
+.btn{
+  flex: 1 1 auto;
+  margin: 10px;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px #494949;
+  border-radius: 50px;
+}
+
+.btn:hover {
+  color: white;
+  background-position: right center;
+}
+.tryBtn{
+  width: 170px;
+  margin: 20px;
+  padding: 12px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  text-shadow: 0px 0px 10px rgba(0,0,0,0.2);
+  box-shadow: 0 0 20px #494949;
+  border-radius: 50px;
+  background: white;
+  color: #d34848;
+  font-weight: bolder;
+  cursor: pointer;
+}
+.tryBtn:hover {
+  color: white;
+  background: #1f1f1f;
+  border: #fefefe 2px solid;
+}
+.btn-1 {
+  background-image: linear-gradient(to right,  #00ffff 0%, #5050fa 20%, #a244aa 40%, #f54c36 60%, #fab432 100%);
+}
+.btn-2{
+  background: white;
+  color: #d34848;
+  font-weight: bolder;
+}
+.btn-2:hover{
+  background: #d34848;
+  border: 1px solid white;
+}
+.buttonStatic{
+  height: 0;
+  position: sticky;
+  top: 0;
+  right: 0;
+  z-index: 400;
+}
+.redSection{
+  background: #d34848;
+  padding: 50px 50px;
+  text-align: left;
+}
+
+.redSection h3, .yellowContent h3{
+  font-size: 2.4rem;
+  text-transform: uppercase;
+  color: white;
+  font-weight: 500;
+  margin-top: 50px;
+}
+.redSection p, .yellowContent p {
+  font-size: 1.7rem;
+}
+.hamburgerMenCont{
+  z-index: 700;
+  position: relative;
+}
+.hamburgerMenItem {
+  list-style: none;
+  margin: 0;
+  text-align: left;
+  text-transform: uppercase;
+  font-size: 1.6rem;
+  z-index: 1000;
+
+}
+.hamburgerMenItem:hover{
+  color: #d34848;
+  cursor: pointer;
+  filter: alpha(opacity=60);
+}
+.hamBtn{
+  cursor: pointer;
+  padding: 0 10px;
+}
+.hide{
+display: none;
+}
+.hamburgerMen{
+  position: absolute;
+  top: 250px;
+  right: 120px;
+}
+.bla{
+  position: relative;
+  top: -250px;
+  left: -250px;
+}
+.backgnd{
+  background: #000000;
+  width: 100px;
+  height: 100px;
+  position: relative;
+  transition: .9s ease all;
+
+}
+.backgnd2{
+  width: 500px;
+  height: 500px;
+  position: relative;
+  transition: .5s ease all;
+  border-radius: 50%;
+}
+.speakers{
+  cursor: pointer;
+  width: 300px;
+}
+.speakers:hover {
+  width: 350px;
+
+}
+.speakLeft{
+  margin-top: -74px;
+  transition: ease all .5;
+}
+.speakLeft:hover{
+  position: absolute;
+  z-index: 10000;
+  
+}
+.speakRight{
+  margin-top: 135px;
+}
+.cursor {
+  width: 40px;
+  height: 40px;
+  border: 2px solid #fefefe;
+  border-radius: 100%;
+  position: fixed;
+  transform: translate(-50%, -50%);
+  pointer-events: none;
+  z-index: 9999;
+  mix-blend-mode: difference;
+}
+.mouseSection{
+  background: #a244aa;
+  width: 400px;
+  height: 400px;
+  cursor: grab;
+}
+.backg22{
+  position: relative;
+}
+.backgroundSource{
+  background-image: url("https://www.nme.com/wp-content/uploads/2018/09/GettyImages-1037625258.jpg");
+  width: 100%;
+  min-height: 100vh;
+  background-size: cover;
+  background-position-y: -20px;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 50;
+}
+
+.yellowBckg{
+  background: #ffb33f
+  ;
+  -webkit-mask-image: url(./components/assets/circlesPng.png);
+  /* mask-size: 200px 100px; */
+  mask-size: cover;
+  -webkit-mask-position-y: -96px;
+  /* padding: 50px 50px; */
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 100;
+}
+.yellowContent{
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 120;
+}
+.revealImg{
+  height: 100vh;
+  width: 100%;
+  background: black;
+  position: absolute;
+  top: 0;
+  right: 0;
+  bottom: 0;
+  left: 0;
+  z-index: 80;
+  transition: ease all .8s;
+}
+.revealBtn{
+  width: 120px;
+  height: 120px;
+  background: none;
+  color: white;
+  border: 2px solid white;
+  border-radius: 50%;
+  position: absolute;
+  top: 46vh;
+  right: 58%;
+  z-index: 180;
+  align-items: center;
+  justify-content: center;
+  display: flex   ;
+  font-size: 1.2rem;
+  cursor: pointer;
+  transition: .5s all ease;
+}
+.revealBtn:hover{
+  background: white;
+  border: 2px solid black;
+  color: #000000;
+  box-shadow: 0 0 20px #494949;
+}
+.revealBtnActive{
+  width: 125px;
+  height: 125px;
+  background: none;
+  color: #292929;
+  border: 2px solid #292929;
+  border-radius: 50%;
+  position: absolute;
+  top: 47vh;
+  right: 59%;
+  z-index: 120;
+  align-items: center;
+  justify-content: center;
+  display: flex   ;
+  font-size: 1.2rem;
+  cursor: pointer;
+}
+.hideSlow{
+  opacity: 0;
+}
+.pricingSect{
+  background: #222222;
+  color: white;
+  padding: 120px 50px;
+}
+.pricingSect h2{
+  font-size: 3.3rem;
+  text-transform: uppercase;
+}
+.pricingSect p{
+  font-size: 1.8rem;
+  padding-bottom: 50px;
+}
+.listGroup{
+  margin: 0%;
+  padding: 0;
+  padding-bottom: 20px;
+}
+.listGroup li{
+  list-style: none;
+  text-align:justify;
+  font-size: 1.4rem;
+  letter-spacing: 3px;
+}
+.planGroups{
+  border: 1px solid cyan;
+}
+.planGroups h4 {
+  border-bottom: 3px solid;
+  padding-bottom: 10px;
+  width: 23%;
+  text-transform: uppercase;
+
+}
+.planGroups h3 {
+  text-transform: uppercase;
+  font-size: 2rem;
+}
+.planGroups h2 {
+  text-transform: uppercase;
+  font-size: 3.5rem;
+  font-weight: bolder;
+}
+.redFont{
+  color: #d34848;
+}
+.yellowFont{
+  color: #ffb33f;
+}
+.tealFont{
+  color: #1fe1e9
+  ;
+}
+.redBckg{
+  background-color: #d34848;
+}
+.yelBckg{
+  background-color: #ffb33f;
+}
+.tealBckg{
+  background-color: #1fe1e9
+  ;
+}
+
+.wrapper{
+  border: 1px solid rgb(202, 255, 123);
+  width: 90%;
+  margin: 0 auto;
+}
+.pricingBtn{
+  cursor: pointer;
+  width: 150px;
+  margin: 10px;
+  padding: 10px 40px;
+  text-align: center;
+  text-transform: uppercase;
+  transition: 0.5s;
+  background-size: 200% auto;
+  color: white;
+  border-radius: 50px;
+  font-weight: bold;
+}
+.pricingBtn:hover{
+  background: white;
+  color: black;
+}
