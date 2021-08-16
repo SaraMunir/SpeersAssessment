@@ -2,9 +2,10 @@ import React from 'react'
 import speakerImgLeft from './assets/speakeIconrLeft.png'
 import speakerImgRight from './assets/speakeIconrRght.png'
 function Red(props) {
-    function dosomething2(){
-        console.log('bla bla')
+    function playMusic(type){
+        console.log('music1 ', type)
     }
+
 
     return (
         <div className="redSection height100">
@@ -18,7 +19,7 @@ function Red(props) {
                 </div>
                 <div className="col-lg-6 row mx-auto">
                     <div className="col-lg-6">
-                        <img  className="speakers speakLeft" src={speakerImgLeft} alt="" />
+                        <img  className="speakers speakLeft" onClick={()=>playMusic('music1')} src={speakerImgLeft} alt="" />
                     </div>
                     <div className="col-lg-6">
                         <img  className="speakers  speakRight" src={speakerImgRight} alt=""/>

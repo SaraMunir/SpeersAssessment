@@ -23,9 +23,7 @@ function Pricing(props) {
                             <li>♪ Perfect job</li>
                             <li>♪ Love this</li>
                             <li>♪ It's so good</li>
-                            <li>♪ 
-                                Features
-                            </li>
+                            <li>♪ Features</li>
                         </ul>
                         <div className="pricingBtn redBckg">Select</div>
                     </div>
