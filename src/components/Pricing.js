@@ -7,7 +7,6 @@ function Pricing(props) {
                 <div className="text-left mx-auto">
                     <h2>Pricing</h2>
                     <p>Test out our app today! Choose from thre subscription <br /> Based payment models. </p>
-
                 </div>
                 <div className="text-left
                 row mx-auto justify-content-center">
